@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230">
+<defs>
+  
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect">
+  <stop offset="0" stop-color="#A78BFA"/>
+  <stop offset=".5" stop-color="#F472B6"/>
+  <stop offset="1" stop-color="#34D399"/>
+  <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="10s" repeatCount="indefinite"/>
+</linearGradient>
+  <filter id="b" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+  <clipPath id="c"><rect width="1200" height="230" rx="28"/></clipPath>
+</defs>
+<g clip-path="url(#c)">
+  <rect width="1200" height="230" fill="#0B0A16"/>
+  <circle cx="300" cy="230" r="180" fill="#7C3AED" opacity=".45" filter="url(#b)">
+    <animate attributeName="cx" values="300;460;300" dur="14s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="900" cy="0" r="170" fill="#DB2777" opacity=".35" filter="url(#b)">
+    <animate attributeName="cx" values="900;760;900" dur="12s" repeatCount="indefinite"/>
+  </circle>
+</g>
+<rect x="1" y="1" width="1198" height="228" rx="27" fill="none" stroke="url(#g)" stroke-opacity=".5" stroke-width="2"/>
+<text x="600" y="98" text-anchor="middle" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="44" font-weight="800" letter-spacing="-1" fill="#FFFFFF">Birlikte bir şey <tspan fill="url(#g)">inşa edelim.</tspan></text>
+<text x="600" y="136" text-anchor="middle" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="17" fill="#A1A1AA">Mobil uygulama, web ürünü ya da çılgın bir fikir — hepsine açığım.</text>
+<rect x="490" y="160" width="220" height="44" rx="22" fill="#FFFFFF"/>
+<text x="600" y="188" text-anchor="middle" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="16" font-weight="700" fill="#0B0A16">LinkedIn'den yaz  →</text>
+</svg>

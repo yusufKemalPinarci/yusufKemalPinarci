@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440">
+<defs>
+  
+<linearGradient id="brand" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect">
+  <stop offset="0" stop-color="#A78BFA"/>
+  <stop offset=".5" stop-color="#F472B6"/>
+  <stop offset="1" stop-color="#34D399"/>
+  <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="10s" repeatCount="indefinite"/>
+</linearGradient>
+  
+<linearGradient id="brandS" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect">
+  <stop offset="0" stop-color="#A78BFA"/>
+  <stop offset=".5" stop-color="#F472B6"/>
+  <stop offset="1" stop-color="#34D399"/>
+  
+</linearGradient>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0B0A16"/><stop offset="1" stop-color="#140F28"/>
+  </linearGradient>
+  <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#1D1736"/><stop offset="1" stop-color="#0D0B1A"/>
+  </linearGradient>
+  <linearGradient id="xp" x1="0" x2="1"><stop offset="0" stop-color="#34D399"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="70"/></filter>
+  <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+    <path d="M44 0H0V44" fill="none" stroke="#FFFFFF" stroke-opacity=".045"/>
+  </pattern>
+  <radialGradient id="fade" cx=".35" cy=".5" r=".75">
+    <stop offset="0" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#0B0A16" stop-opacity=".9"/>
+  </radialGradient>
+  <clipPath id="card"><rect width="1200" height="440" rx="28"/></clipPath>
+  <clipPath id="ty0"><rect x="92" y="356" width="0" height="32"><animate attributeName="width" values="0;0;479.4;479.4;0;0" keyTimes="0.0000;0.0133;0.1400;0.2800;0.3200;1.0000" dur="15.0s" repeatCount="indefinite"/></rect></clipPath><clipPath id="ty1"><rect x="92" y="356" width="0" height="32"><animate attributeName="width" values="0;0;448.8;448.8;0;0" keyTimes="0.0000;0.3467;0.4733;0.6133;0.6533;1.0000" dur="15.0s" repeatCount="indefinite"/></rect></clipPath><clipPath id="ty2"><rect x="92" y="356" width="0" height="32"><animate attributeName="width" values="0;0;448.8;448.8;0;0" keyTimes="0.0000;0.6800;0.8067;0.9467;0.9867;1.0000" dur="15.0s" repeatCount="indefinite"/></rect></clipPath>
+</defs>
+
+<g clip-path="url(#card)">
+  <rect width="1200" height="440" fill="url(#bg)"/>
+  <circle cx="180" cy="40" r="190" fill="#7C3AED" opacity=".55" filter="url(#blur)">
+    <animate attributeName="cx" values="180;360;180" dur="16s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1050" cy="420" r="210" fill="#DB2777" opacity=".38" filter="url(#blur)">
+    <animate attributeName="cy" values="420;300;420" dur="13s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="-20" r="170" fill="#059669" opacity=".32" filter="url(#blur)">
+    <animate attributeName="cx" values="700;560;700" dur="18s" repeatCount="indefinite"/>
+  </circle>
+  <rect width="1200" height="440" fill="url(#grid)"/>
+  <rect width="1200" height="440" fill="url(#fade)"/>
+</g>
+<rect x="1" y="1" width="1198" height="438" rx="27" fill="none" stroke="url(#brand)" stroke-opacity=".55" stroke-width="2"/>
+
+<!-- durum hapı -->
+<rect x="64" y="52" width="372" height="32" rx="16" fill="#FFFFFF" fill-opacity=".06" stroke="#FFFFFF" stroke-opacity=".14"/>
+<circle cx="84" cy="68" r="9" fill="#34D399" opacity=".3">
+  <animate attributeName="r" values="4;10;4" dur="2s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values=".5;0;.5" dur="2s" repeatCount="indefinite"/>
+</circle>
+<circle cx="84" cy="68" r="4" fill="#34D399"/>
+<text x="100" y="73" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#D4D4D8">Şu an: <tspan fill="#FFFFFF" font-weight="600">oyunlaştırılmış Flutter uygulamaları</tspan></text>
+
+<text x="64" y="136" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="22" fill="#A1A1AA">Merhaba 👋 ben</text>
+<text x="62" y="208" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="70" font-weight="800" letter-spacing="-2" fill="#FFFFFF">Yusuf Kemal</text>
+<text x="62" y="282" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="70" font-weight="800" letter-spacing="-2" fill="url(#brand)">Pınarcı.</text>
+<text x="64" y="324" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="19" fill="#D4D4D8"><tspan font-weight="700" fill="#FFFFFF">Full Stack &amp; Mobile Developer</tspan>  ·  fikirden ürüne, uçtan uca</text>
+
+<!-- yazılan terminal satırı -->
+<text x="64" y="378" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace" font-size="17" font-weight="700" fill="#34D399">❯</text>
+<text clip-path="url(#ty0)" x="92" y="378" textLength="479.4" lengthAdjust="spacing" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace" font-size="17" fill="#E4E4E7">Flutter ile offline-first uygulamalar yazıyorum</text><text clip-path="url(#ty1)" x="92" y="378" textLength="448.8" lengthAdjust="spacing" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace" font-size="17" fill="#E4E4E7">React + Node.js + .NET ile uçtan uca ürünler</text><text clip-path="url(#ty2)" x="92" y="378" textLength="448.8" lengthAdjust="spacing" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace" font-size="17" fill="#E4E4E7">Python ile bilgisayarlı görü &amp; nesne tespiti</text>
+<rect x="92" y="362" width="9" height="20" rx="1" fill="#F472B6">
+  <animate attributeName="x" values="94.0;94.0;573.4;573.4;94.0;94.0;542.8;542.8;94.0;94.0;542.8;542.8;94.0;94.0" keyTimes="0.0000;0.0133;0.1400;0.2800;0.3200;0.3467;0.4733;0.6133;0.6533;0.6800;0.8067;0.9467;0.9867;1.0000" dur="15.0s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1s" repeatCount="indefinite"/>
+</rect>
+
+
+<g>
+  <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0"
+    dur="5s" begin="0s" repeatCount="indefinite" calcMode="spline"
+    keySplines=".45 0 .55 1;.45 0 .55 1"/>
+  <rect x="752" y="92" width="98" height="32" rx="16" fill="#17142C" stroke="#FFFFFF" stroke-opacity=".16"/>
+  <text x="801.0" y="113" text-anchor="middle" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="13.5"
+    font-weight="600" fill="#F4F4F5">📱 Flutter</text>
+</g>
+
+<g>
+  <animateTransform attributeName="transform" type="translate" values="0 0;0 8;0 0"
+    dur="5s" begin="1.4s" repeatCount="indefinite" calcMode="spline"
+    keySplines=".45 0 .55 1;.45 0 .55 1"/>
+  <rect x="738" y="214" width="144" height="32" rx="16" fill="#17142C" stroke="#FFFFFF" stroke-opacity=".16"/>
+  <text x="810.0" y="235" text-anchor="middle" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="13.5"
+    font-weight="600" fill="#F4F4F5">⚡ Offline-first</text>
+</g>
+
+<g>
+  <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0"
+    dur="5s" begin="2.6s" repeatCount="indefinite" calcMode="spline"
+    keySplines=".45 0 .55 1;.45 0 .55 1"/>
+  <rect x="770" y="330" width="136" height="32" rx="16" fill="#17142C" stroke="#FFFFFF" stroke-opacity=".16"/>
+  <text x="838.0" y="351" text-anchor="middle" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="13.5"
+    font-weight="600" fill="#F4F4F5">🎮 Oyunlaştırma</text>
+</g>
+
+<g transform="translate(905 34) rotate(-5 118 186)">
+  <animateTransform attributeName="transform" type="translate" additive="sum"
+    values="0 0;0 -10;0 0" dur="6s" repeatCount="indefinite" calcMode="spline"
+    keySplines=".45 0 .55 1;.45 0 .55 1"/>
+  <rect x="0" y="0" width="236" height="372" rx="38" fill="#08070F" stroke="#FFFFFF" stroke-opacity=".22" stroke-width="2"/>
+  <rect x="10" y="10" width="216" height="352" rx="30" fill="url(#screen)"/>
+  <rect x="82.0" y="18" width="72" height="20" rx="10" fill="#08070F"/>
+  <text x="26" y="66" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">SeviyeBen</text>
+  <rect x="148" y="51" width="62" height="22" rx="11" fill="#F59E0B" fill-opacity=".18"/>
+  <text x="179" y="66" text-anchor="middle" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace" font-size="11" font-weight="700" fill="#FCD34D">◆ 1.240</text>
+  <circle cx="118" cy="118" r="36" fill="url(#brandS)"/>
+  <circle cx="118" cy="118" r="36" fill="none" stroke="#FFFFFF" stroke-opacity=".5" stroke-width="2" stroke-dasharray="8 6">
+    <animateTransform attributeName="transform" type="rotate" values="0 118 118;360 118 118" dur="14s" repeatCount="indefinite"/>
+  </circle>
+  <text x="118" y="130" text-anchor="middle" font-size="32">⚔️</text>
+  <text x="118" y="180" text-anchor="middle" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="800" fill="#FFFFFF">Seviye 12</text>
+  <text x="118" y="198" text-anchor="middle" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="11.5" fill="#A1A1AA">Kod Şövalyesi</text>
+  <rect x="26" y="210" width="184" height="10" rx="5" fill="#FFFFFF" fill-opacity=".1"/>
+  <rect x="26" y="210" width="60" height="10" rx="5" fill="url(#xp)">
+    <animate attributeName="width" values="60;150;150;60" keyTimes="0;.55;.9;1" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <text x="26" y="236" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" fill="#A1A1AA">XP</text>
+  <text x="210" y="236" text-anchor="end" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace" font-size="10" fill="#A1A1AA">740 / 1000</text>
+  
+  <rect x="26" y="248" width="184" height="30" rx="10" fill="#FFFFFF" fill-opacity=".06"/>
+  <circle cx="44" cy="263" r="8" fill="#34D399"/><path d="M40 263 l3 3 l5 -6" stroke="#0B0A16" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="60" y="267.5" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#A1A1AA"
+    text-decoration="line-through">Sabah koşusu</text>
+  <text x="202" y="267.5" text-anchor="end" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace" font-size="10.5" fill="#34D399">+50 XP</text>
+  <rect x="26" y="284" width="184" height="30" rx="10" fill="#FFFFFF" fill-opacity=".06"/>
+  <circle cx="44" cy="299" r="8" fill="#34D399"/><path d="M40 299 l3 3 l5 -6" stroke="#0B0A16" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <text x="60" y="303.5" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#A1A1AA"
+    text-decoration="line-through">45 dk kod</text>
+  <text x="202" y="303.5" text-anchor="end" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace" font-size="10.5" fill="#34D399">+80 XP</text>
+  <rect x="26" y="320" width="184" height="30" rx="10" fill="#FFFFFF" fill-opacity=".06"/>
+  <circle cx="44" cy="335" r="7.5" fill="none" stroke="#A1A1AA" stroke-width="1.5"><animate attributeName="stroke" values="#A1A1AA;#F472B6;#A1A1AA" dur="2s" repeatCount="indefinite"/></circle>
+  <text x="60" y="339.5" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#F4F4F5"
+    >20 sayfa kitap</text>
+  <text x="202" y="339.5" text-anchor="end" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace" font-size="10.5" fill="#34D399">+40 XP</text>
+</g>
+</svg>
