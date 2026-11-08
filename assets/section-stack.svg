@@ -11,7 +11,7 @@
     <stop offset="0" stop-color="#A78BFA" stop-opacity=".9"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
   </linearGradient>
 </defs>
-<text x="4" y="58" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace" font-size="16" font-weight="700" fill="url(#g)">03</text>
+<text x="4" y="58" font-family="'JetBrains Mono','SF Mono','Fira Code',Menlo,Consolas,monospace" font-size="16" font-weight="700" fill="url(#g)">04</text>
 <text x="44" y="60" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="32" font-weight="800" letter-spacing="-.5" fill="#8B5CF6">Teknolojiler</text>
 <text x="44" y="86" font-family="'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif" font-size="15" fill="#8B8B99">Günlük çalıştığım araç kutusu.</text>
 <rect x="266" y="48" width="930" height="2" rx="1" fill="url(#line)"/>
